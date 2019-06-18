@@ -18,7 +18,9 @@ install(TARGETS raytracer DESTINATION .)
 # Build tests
 add_executable(tests
   sphere.cpp
-  tests.cpp)
+  box.cpp
+  tests.cpp
+)
 
 
 target_link_libraries(tests
