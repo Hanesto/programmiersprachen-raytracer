@@ -22,5 +22,6 @@
 
 checkerboard.ppm
 
+.vscode
 build
 cmake_out
